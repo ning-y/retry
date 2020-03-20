@@ -1,0 +1,13 @@
+Package: retry
+Type: Package
+Title: Execute a Code Block Until it Succeeds
+Version: 1.0.0
+Authors@R: person("Ning Yuan", "Lee", email="ningyuan@u.nus.edu",
+  role=c("aut", "cre"))
+Description: Retries a block of code until it succeeds.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    assertthat
+RoxygenNote: 7.1.0
